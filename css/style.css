@@ -1,0 +1,151 @@
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background-color: rgb(224, 195, 63);
+  color: beige;
+}
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-menu {
+  display: flex;
+  gap: 70px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.box {
+  background: url(../images/image6.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.main-text {
+  position: absolute;
+  color: black;
+  font-size: 45px;
+  padding-left: 100px;
+  padding-top: 30px;
+
+  transition: background-color 0.3s liner;
+}
+.main-text:hover {
+  color: rgb(86, 224, 224);
+}
+.sport {
+  text-align: center;
+}
+.sport-holder {
+  display: flex;
+  justify-content: space-between;
+}
+.Yoga {
+  text-align: center;
+}
+.yoga-holder {
+  display: flex;
+  justify-content: space-between;
+}
+.yoga-holder span {
+  color: rgb(22, 119, 63);
+}
+.Entspannen {
+  text-align: center;
+}
+.entspannen-holder {
+  display: flex;
+  justify-content: space-between;
+}
+.Musik {
+  text-align: center;
+}
+.musik-holder {
+  display: flex;
+  justify-content: space-between;
+}
+.text-musik {
+  color: gold;
+}
+.musik-1 {
+  color: rgb(158, 69, 180);
+}
+.musik-2 {
+  color: rgb(42, 43, 44);
+}
+.musik-3 {
+  color: rgb(121, 140, 175);
+}
+
+.schlafen {
+  text-align: center;
+}
+.holder-schlafen {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hobby {
+  text-align: center;
+}
+.holder-hobby {
+  display: flex;
+  justify-content: space-between;
+}
+.image {
+  max-width: 1000px;
+}
+footer {
+  background-color: rgb(147, 241, 218);
+  color: beige;
+}
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+}
+.frage {
+  font-size: 24px;
+  margin-bottom: 50px;
+  background-color: beige;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.bilder {
+  display: flex;
+}
+.zweite-img {
+  width: 600px;
+  height: 350px;
+}
+.dritte-img {
+  width: 600px;
+  height: 350px;
+}
+.letzte-img {
+  width: 600px;
+  height: 350px;
+}
+
+.block {
+  margin: 20px;
+  column-count: 3;
+  background-color: darkseagreen;
+}
+.hobby-text {
+  text-align: right;
+}
+.hobby-h3 {
+  text-align: center;
+}
+.footer-menu {
+  display: flex;
+  gap: 70px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
